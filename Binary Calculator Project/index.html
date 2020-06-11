@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1 class="display-4 mb-5">Binary Calculator</h1>
+      <div class="card bg-secondary">
+        <div
+          class="card-header p-3 mt-3 bg-dark text-light w-75 align-self-center ico-style"
+        >
+          <div id="res"></div>
+        </div>
+        <div id="btns" class="card-body">
+          <div class="row">
+            <div class="col-sm my-2">
+              <button id="btn0" class="btn btn-primary w-45">0</button>
+              <button id="btn1" class="btn btn-primary w-45">1</button>
+            </div>
+            <div class="col-sm my-2">
+              <button id="btnClr" class="btn btn-danger w-45">C</button>
+              <button id="btnEql" class="btn btn-success w-45">=</button>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-sm my-2">
+              <button id="btnSum" class="btn btn-warning w-45">+</button>
+              <button id="btnSub" class="btn btn-warning w-45">-</button>
+            </div>
+            <div class="col-sm my-2">
+              <button id="btnMul" class="btn btn-warning w-45">*</button>
+              <button id="btnDiv" class="btn btn-warning w-45">/</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
